@@ -1,0 +1,31 @@
+
+.fullscreen{
+	max-width:100%;
+	max-height: 100%;
+}
+
+#home,#blog,#videos,#photos:not(INPUT):not(TEXTAREA) {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.ui-btn-active { 
+    
+    color: gray !important; 
+   
+    background-color: black !important; 
+ 
+    border-top: 3px solid orange !important;
+ 
+    border-left:none;
+ 
+    border-right: none;
+   
+ } 
+
+
+
+

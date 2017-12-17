@@ -1,0 +1,22 @@
+
+
+<!-- main (body) of photos page-->
+<div data-role="main" class="ui-content">
+	<!-- <h1>Photos Page</h1> -->
+	<div ng-controller="ListController as list">
+		
+		<ul data-role="listview" data-inset="true" class="ui-alt-icon"
+		data-filter="true" data-filter-placeholder="search an image ...">		
+
+			<li ng-repeat="item in list.items">
+				<a href="#{{item.title}}">
+					<img ng-src="{{item.image}}" alt="">
+					<h1>{{item.title | uppercase}}</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</a>
+			</li>
+			 
+		</ul>
+	</div>
+</div>
+<!-- end of body of photos page-->

@@ -1,0 +1,17 @@
+
+
+<!-- footer -->
+<div data-role="footer" data-position="fixed" data-theme="b" data-id="per_footer"
+	data-transition="none" data-tap-toggle="false">
+	<div data-role="navbar" ng-controller="TabController as tab">
+		<ul>
+			<li ng-repeat="t in tab.tabs" >
+				<a href="#{{t.title}}" data-role="button" data-icon="{{t.icon}}" ng-click="d=1">
+					{{t.title}}
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<!-- End of footer -->
+

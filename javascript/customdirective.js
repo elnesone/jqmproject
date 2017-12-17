@@ -20,7 +20,7 @@ directive('videos',function(){
 
 		restrict:'E',
 		replace:true,
-		templateUrl:'videos.html',
+		templateUrl:'https://rawgit.com/elnesone/jqmproject/master/pages/videos.html',
 		scope:{}
 
 	};
@@ -32,7 +32,7 @@ directive('photos',function(){
 
 		restrict:'E',
 		replace:true,
-		templateUrl:'photos.html',
+		templateUrl:'https://rawgit.com/elnesone/jqmproject/master/pages/photos.html',
 		scope:{}
 
 	};
@@ -44,7 +44,7 @@ directive('city',function(){
 
 		restrict:'E',
 		replace:true,
-		templateUrl:'city.html',
+		templateUrl:'https://rawgit.com/elnesone/jqmproject/master/pages/city.html',
 		scope:{}
 
 	};
@@ -56,7 +56,7 @@ directive('madagascar',function(){
 
 		restrict:'E',
 		replace:true,
-		templateUrl:'madagascar.html',
+		templateUrl:'https://rawgit.com/elnesone/jqmproject/master/pages/madagascar.html',
 		scope:{}
 
 	};
@@ -68,7 +68,7 @@ directive('animals',function(){
 
 		restrict:'E',
 		replace:true,
-		templateUrl:'animals.html',
+		templateUrl:'https://rawgit.com/elnesone/jqmproject/master/pages/animals.html',
 		scope:{}
 
 	};
@@ -80,7 +80,7 @@ directive('nature',function(){
 
 		restrict:'E',
 		replace:true,
-		templateUrl:'nature.html',
+		templateUrl:'https://rawgit.com/elnesone/jqmproject/master/pages/nature.html',
 		scope:{}
 
 	};
@@ -92,7 +92,7 @@ directive('pageheader',function(){
 
 		restrict:'E',
 		replace:true,
-		templateUrl:'overall/pageheader.html',
+		templateUrl:'https://rawgit.com/elnesone/jqmproject/master/pages/overall/pageheader.html',
 		scope:true
 
 	};
@@ -105,7 +105,7 @@ directive('pagefooter',function(){
 
 		restrict:'E',
 		replace:true,
-		templateUrl:'overall/pagefooter.html',
+		templateUrl:'https://rawgit.com/elnesone/jqmproject/master/pages/overall/pagefooter.html',
 		scope:{}
 
 	};
@@ -117,7 +117,7 @@ directive('photosmain',function(){
 
 		restrict:'E',
 		replace:true,
-		templateUrl:'photosbody/photosmain.html',
+		templateUrl:'https://rawgit.com/elnesone/jqmproject/master/pages/photosbody/photosmain.html',
 		scope:{}
 
 	};

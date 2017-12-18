@@ -1,5 +1,5 @@
 # jqmproject
 f m a i 2
 
-[blog] (blog.html)
+[blog] (https://rawgit.com/elnesone/jqmproject/master/pages/blog.html)
 

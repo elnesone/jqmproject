@@ -114,10 +114,12 @@
 
         this.items=[
 
-            {title:'city',image:'../images/col1.jpg'},
-            {title:'madagascar',image:'../images/col2.jpg'},
-            {title:'animals',image:'../images/col3.jpg'},
-            {title:'nature',image:'../images/col4.jpg'}
+            {title:'city'
+             ,image:'https://github.com/elnesone/jqmproject/blob/master/images/col1.jpg?raw=true'},
+            {title:'madagascar'
+             ,image:'https://github.com/elnesone/jqmproject/blob/master/images/col2.jpg?raw=true'},
+            {title:'animals',image:'https://github.com/elnesone/jqmproject/blob/master/images/col3.jpg?raw=true'},
+            {title:'nature',image:'https://github.com/elnesone/jqmproject/blob/master/images/col4.jpg?raw=true'}
         
         ];
 

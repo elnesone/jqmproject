@@ -8,7 +8,7 @@ directive('blog',function(){
 
 		restrict:'E',
 		replace:true,
-		templateUrl:'[this blog] (blog.html)',
+		templateUrl:'[blog] (blog.html)',
 		scope:{}
 
 	};

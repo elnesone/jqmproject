@@ -8,7 +8,7 @@ directive('blog',function(){
 
 		restrict:'E',
 		replace:true,
-		templateUrl:'https://rawgit.com/elnesone/jqmproject/master/pages/blog.html',
+		template:'<div ng-include="https://rawgit.com/elnesone/jqmproject/master/pages/blog.html"></div>',		
 		scope:{}
 
 	};

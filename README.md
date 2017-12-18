@@ -1,5 +1,5 @@
 # jqmproject
 f m a i 2
 
-[blog] (blog.md)
+[blog] (blog.html)
 

@@ -2,17 +2,17 @@
 
 var jQueryMApp=angular.module('customdirective',[]).
 
-directive('blog',['$http',function(){
+directive('blog',function(){
 
 	return {
 
 		restrict:'E',
 		replace:true,
-		templateUrl:'https://rawgit.com/elnesone/jqmproject/master/pages/blog.html',		
-		scope:{=}
+		templateUrl:'blog.html',
+		scope:{}
 
 	};
-}]).
+}).
 
 directive('videos',function(){
 
@@ -20,7 +20,7 @@ directive('videos',function(){
 
 		restrict:'E',
 		replace:true,
-		templateUrl:'https://rawgit.com/elnesone/jqmproject/master/pages/videos.html',
+		templateUrl:'videos.html',
 		scope:{}
 
 	};
@@ -32,7 +32,7 @@ directive('photos',function(){
 
 		restrict:'E',
 		replace:true,
-		templateUrl:'https://rawgit.com/elnesone/jqmproject/master/pages/photos.html',
+		templateUrl:'photos.html',
 		scope:{}
 
 	};
@@ -44,7 +44,7 @@ directive('city',function(){
 
 		restrict:'E',
 		replace:true,
-		templateUrl:'https://rawgit.com/elnesone/jqmproject/master/pages/city.html',
+		templateUrl:'city.html',
 		scope:{}
 
 	};
@@ -56,7 +56,7 @@ directive('madagascar',function(){
 
 		restrict:'E',
 		replace:true,
-		templateUrl:'https://rawgit.com/elnesone/jqmproject/master/pages/madagascar.html',
+		templateUrl:'madagascar.html',
 		scope:{}
 
 	};
@@ -68,7 +68,7 @@ directive('animals',function(){
 
 		restrict:'E',
 		replace:true,
-		templateUrl:'https://rawgit.com/elnesone/jqmproject/master/pages/animals.html',
+		templateUrl:'animals.html',
 		scope:{}
 
 	};
@@ -80,7 +80,7 @@ directive('nature',function(){
 
 		restrict:'E',
 		replace:true,
-		templateUrl:'https://rawgit.com/elnesone/jqmproject/master/pages/nature.html',
+		templateUrl:'nature.html',
 		scope:{}
 
 	};
@@ -92,7 +92,7 @@ directive('pageheader',function(){
 
 		restrict:'E',
 		replace:true,
-		templateUrl:'https://rawgit.com/elnesone/jqmproject/master/pages/overall/pageheader.html',
+		templateUrl:'overall/pageheader.html',
 		scope:true
 
 	};
@@ -105,7 +105,7 @@ directive('pagefooter',function(){
 
 		restrict:'E',
 		replace:true,
-		templateUrl:'https://rawgit.com/elnesone/jqmproject/master/pages/overall/pagefooter.html',
+		templateUrl:'overall/pagefooter.html',
 		scope:{}
 
 	};
@@ -117,7 +117,7 @@ directive('photosmain',function(){
 
 		restrict:'E',
 		replace:true,
-		templateUrl:'https://rawgit.com/elnesone/jqmproject/master/pages/photosbody/photosmain.html',
+		templateUrl:'photosbody/photosmain.html',
 		scope:{}
 
 	};

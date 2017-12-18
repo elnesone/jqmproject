@@ -2,17 +2,17 @@
 
 var jQueryMApp=angular.module('customdirective',[]).
 
-directive('blog',function(){
+directive('blog',['$http',function(){
 
 	return {
 
 		restrict:'E',
 		replace:true,
 		templateUrl:'https://rawgit.com/elnesone/jqmproject/master/pages/blog.html',		
-		scope:{}
+		scope:{=}
 
 	};
-}).
+}]).
 
 directive('videos',function(){
 
